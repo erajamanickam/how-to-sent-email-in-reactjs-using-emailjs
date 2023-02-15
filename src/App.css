@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 .App {
   background: linear-gradient(to bottom, #61daff, #656bff);
   font-family: 'Josefin Sans', sans-serif;
 }
-
 .contact-form {
   padding: 20px 0;
 }
@@ -15,7 +15,6 @@ img {
 }
 .contact-form {
   padding: 40px;
-  margin-left: 15px;
   box-shadow: 0 0 20px hsl(0deg 0% 62% / 16%);
   background-color: #fff;
 }
@@ -66,4 +65,7 @@ img {
     margin-right: auto;
     margin-top: 12px;
     color: #ffffff;
+}
+.error {
+  color: #ff5d22;
 }
