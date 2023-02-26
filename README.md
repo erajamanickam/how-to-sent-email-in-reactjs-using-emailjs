@@ -8,11 +8,11 @@ We will send email using reactjs with form validation.
 
 ## Demo
 
-Tutorial : https://dev.to/rajamanickam/send-email-using-reactjs-1h72
+Tutorial : https://dev.to/rajamanickam/send-email-using-reactjs-7ij
 
 Demo : https://how-to-sent-email-in-reactjs.vercel.app/
 
-Youtube : https://www.youtube.com/watch?v=M_ByzcrmHjQ
+Youtube : https://youtu.be/W4JUdgR8a0E
 
 
 
