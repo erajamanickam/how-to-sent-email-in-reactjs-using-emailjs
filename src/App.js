@@ -41,10 +41,10 @@ export const App = () => {
 
     if (!formData.phone) {
       isValid = false;
-      newErrors.phone = 'phone is required';
+      newErrors.phone = 'Phone no is required';
     } else if (!phoneRegex.test(formData.phone)) {
       isValid = false;
-      newErrors.phone = 'phone is invalid *';
+      newErrors.phone = 'Phone is invalid *';
     }
   
     if (!formData.email) {
@@ -120,7 +120,7 @@ export const App = () => {
                     <input
                       className='form-control'
                       placeholder='Email address'
-                      type="email"
+                      type="text"
                       id="email"
                       value={formData.email}
                       onChange={event =>
@@ -134,7 +134,7 @@ export const App = () => {
                     <div className='form-group'>
                     <input
                       className='form-control'
-                      placeholder='Mobile no'
+                      placeholder='Phone no'
                       type="num"
                       id="phone"
                       value={formData.phone}
